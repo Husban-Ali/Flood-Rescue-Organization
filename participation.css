@@ -1,0 +1,284 @@
+header {
+  padding: 40px;
+  text-align: center;
+  background: lightblue;
+  color: white;
+  font-size: 30px;
+}
+/*Header*/
+/*navbar*/
+nav {
+  background-color: #333;
+  text-align: center;
+  padding: 20px;
+}
+nav a {
+  padding: 10px;
+  margin: 0px 15px;
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+}
+
+nav a:hover {
+  background-color: #111;
+}
+/*Navbar*/
+
+/*footer*/
+footer {
+  padding: 30px;
+  background-color: rgb(16, 11, 10);
+}
+.col h3 {
+  color: greenyellow;
+}
+.col a {
+  text-decoration: none;
+  color: white;
+}
+.col a:hover {
+  color: blue;
+}
+
+.submit1 {
+  background-color: rgb(20, 85, 20);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  margin-top: 5px;
+  padding: 5px;
+  width: 150px;
+  text-transform: uppercase;
+}
+
+.submit1:hover {
+  background-color: greenyellow;
+  color: black;
+}
+/*Footer*/
+
+
+
+
+
+
+
+
+.category {
+  text-align: center;
+}
+
+.participation {
+
+  background-color: white;
+  margin: 0;
+  padding: 10px;
+
+}
+
+
+
+
+
+
+
+.donation-container {
+  height: 100px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  text-transform: uppercase;
+  margin-top: 30px;
+  height:500px;
+}
+
+.donation-box {
+  width: 400px;
+  height: 386px;
+  background-color: #F5F5F5;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.donation-box .title {
+  background-color: green;
+  width: 100%;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  color: white;
+  text-align: center;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  font-size: 15px;
+}
+
+.donation-box .donate-button {
+  background-color: green;
+  width: 100%;
+  color: white;
+  text-align: center;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  font-size: 18px;
+  bottom: 0px;
+  position: absolute;
+  font-weight: 800;
+}
+
+.donation-box .fields {
+  width: 59%;
+  display: block;
+  position: absolute;
+  top: 60px;
+  left: 15px;
+}
+
+.donation-box .fields input {
+  width: 90%;
+  font-size: 17px;
+  padding: 10px;
+  border-radius: 4px;
+  border-width: 0px;
+  color: #5C5C5C;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.donation-box .amount {
+  width: 30%;
+  display: block;
+  position: absolute;
+  top: 60px;
+  right: 15px;
+}
+
+.donation-box .amount .button {
+  width: 100%;
+  background-color: gray;
+  margin-bottom: 10px;
+  text-align: center;
+  color: white;
+  padding: 15px 0px 15px 0px;
+  border-radius: 4px;
+  font-size: 20px;
+}
+
+.donation-box .amount .button:hover {
+  background-color: #393939;
+}
+
+.donation-box .amount .button input {
+  min-width: 34px;
+  font-size: 20px;
+  font-weight: 500;
+  border: none;
+  background-color: transparent;
+  color: white;
+  font-family: Montserrat, sans-serif;
+  font-size: 20px;
+  border-bottom: 2px dashed white;
+}
+
+.set-amount {
+  max-width: 96px;
+}
+
+.switch {
+  position: absolute;
+  top: 190px;
+  left: 15px;
+  margin: 20px auto;
+  height: 26px;
+  width: 58.5%;
+  background: white;
+  border-radius: 3px;
+}
+
+.switch-label:active {
+  font-weight: bold;
+}
+
+.switch-label {
+  position: relative;
+  z-index: 2;
+  float: left;
+  width: 49%;
+  line-height: 26px;
+  font-size: 11px;
+  color: #5C5C5C;
+  text-align: center;
+}
+
+.switch-label-off {
+  padding-left: 2px;
+}
+
+.switch-label-on {
+  padding-right: 2px;
+}
+
+.switch-input {
+  display: none;
+}
+
+.switch-input:checked+.switch-label {
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.65);
+}
+
+.switch-input:checked+.switch-label-on~.switch-selection {
+  left: 114px;
+}
+
+.switch-selection {
+  display: block;
+  position: absolute;
+  z-index: 1;
+  top: 2px;
+  left: 2px;
+  width: 49%;
+  height: 22px;
+  background: #65bd63;
+  border-radius: 3px;
+  background-color: green;
+}
+
+.checkboxes {
+  position: absolute;
+  top: 242px;
+  left: 13px;
+}
+
+.checkboxes label {
+  position: relative;
+  top: -8px;
+  font-size: 13px;
+  color: gray;
+}
+
+.checkbox {
+  
+  background-color: #fafafa;
+  border: 1px solid green;
+  padding: 9px;
+  border-radius: 3px;
+  display: inline-block;
+  position: relative;
+}
+
+.checkbox:checked {
+  background-color: green;
+  border: 1px solid green;
+  color: white;
+}
+
+.checkbox:checked:after {
+  content: '\2714';
+  font-size: 14px;
+  position: absolute;
+  top: 0px;
+  left: 3px;
+  color: white;
+}

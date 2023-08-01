@@ -1,0 +1,115 @@
+header {
+  padding: 40px;
+  text-align: center;
+  background: lightblue;
+  color: white;
+  font-size: 30px;
+}
+/*Header*/
+/*navbar*/
+nav {
+  background-color: #333;
+  text-align: center;
+  padding: 20px;
+}
+nav a {
+  padding: 10px;
+  margin: 0px 15px;
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+}
+
+nav a:hover {
+  background-color: #111;
+}
+/*Navbar*/
+
+/*footer*/
+footer {
+  padding: 30px;
+  background-color: rgb(16, 11, 10);
+}
+.col h3 {
+  color: greenyellow;
+}
+.col a {
+  text-decoration: none;
+  color: white;
+}
+.col a:hover {
+  color: blue;
+}
+
+.submit1 {
+  background-color: rgb(20, 85, 20);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  margin-top: 5px;
+  padding: 5px;
+  width: 150px;
+  text-transform: uppercase;
+}
+
+.submit1:hover {
+  background-color: greenyellow;
+  color: black;
+}
+/*Footer*/
+/*slider*/
+.slider {
+  width: 1200px;
+  height: 400px;
+  left: 50%;
+  top: 50%;
+  background-image: url(./Assets/slide\ 1.PNG);
+  background-size: 100% 100%;
+  animation: slider 9s infinite linear;
+
+}
+@keyframes slider {
+  0% {
+      background-image: url(./Assets/slide\ 1.PNG);
+  }
+
+  35% {
+      background-image: url(./Assets/slide\ 2.gif);
+  }
+
+  75% {
+      background-image: url(./Assets/slide\ 3.JPG);
+
+  }
+}
+/*slider*/
+/*javaid afridi ki mg*/
+.mg{
+  height: 700px;
+  width: 1200px;
+  background-image: url(hom1.JPG  );
+  background-repeat: no-repeat;
+}
+.mg h3{
+  margin-left: 20px;
+  padding-top: 100px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 70px;
+  font-weight: bold;
+
+}
+.mg .btn{
+  margin-top: 30px;
+  margin-left: 20px;
+  padding: 15px 70px 15px 70px;
+  background-color: orange;
+  font-weight: bold;
+  font-size: 25px;
+}
+.mg .btn:hover {
+  background-color: white;
+}
+/*javaid afridi ki mg*/
+.container{
+  margin-right: 1200px;
+}

@@ -1,0 +1,104 @@
+
+  .main
+{
+  margin-left: 200px;
+    width: 1000px;
+    height:600px;
+}
+.img
+{
+    
+    margin-left: 775px;
+}
+.text
+{
+    text-align: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 100px;
+}
+
+.first
+{
+    margin-left: 675px;
+    margin-top:-350px;
+    padding: 10px;
+}
+.fone
+{
+    margin-left: 775px;
+    margin-top:-110px;
+    padding: 10px;
+}
+.second
+{
+    margin-left: 675px;
+    padding: 10px;
+}
+.ftwo
+{
+    margin-left: 875px;
+    margin-top:-110px;
+    padding: 10px;
+
+}
+header {
+  padding: 40px;
+  text-align: center;
+  background: lightblue;
+  color: white;
+  font-size: 30px;
+}
+/*Header*/
+/*navbar*/
+nav {
+  background-color: #333;
+  text-align: center;
+  padding: 20px;
+}
+nav a {
+  padding: 10px;
+  margin: 0px 15px;
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+}
+
+nav a:hover {
+  background-color: #111;
+}
+/*Navbar*/
+
+/*footer*/
+footer {
+  padding: 30px;
+  background-color: rgb(16, 11, 10);
+}
+.col h3 {
+  color: greenyellow;
+}
+.col a {
+  text-decoration: none;
+  color: white;
+}
+.col a:hover {
+  color: blue;
+}
+
+.submit1 {
+  background-color: rgb(20, 85, 20);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  margin-top: 5px;
+  padding: 5px;
+  width: 150px;
+  text-transform: uppercase;
+}
+
+.submit1:hover {
+  background-color: greenyellow;
+  color: black;
+}
+
+
+

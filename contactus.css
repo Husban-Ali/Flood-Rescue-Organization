@@ -1,0 +1,141 @@
+.container
+{
+width: 1000px;
+margin-left: 100px;
+
+}
+header {
+  padding: 40px;
+  text-align: center;
+  background: lightblue;
+  color: white;
+  font-size: 30px;
+}
+/*Header*/
+/*navbar*/
+nav {
+  background-color: #333;
+  text-align: center;
+  padding: 20px;
+}
+nav a {
+  padding: 10px;
+  margin: 0px 15px;
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+}
+
+nav a:hover {
+  background-color: #111;
+}
+/*Navbar*/
+
+/*footer*/
+footer {
+  padding: 30px;
+  background-color: rgb(16, 11, 10);
+  margin-top: 800px;
+}
+.col h3 {
+  color: greenyellow;
+}
+.col a {
+  text-decoration: none;
+  color: white;
+}
+.col a:hover {
+  color: blue;
+}
+
+.submit1 {
+  background-color: rgb(20, 85, 20);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  margin-top: 5px;
+  padding: 5px;
+  width: 150px;
+  text-transform: uppercase;
+}
+
+.submit1:hover {
+  background-color: greenyellow;
+  color: black;
+}
+/*Footer*/
+
+
+
+
+
+
+
+
+
+  .main{
+    height: 800px;
+    width: 1000px;
+    background-image: url(./Assets/home.jpg);
+    background-repeat: no-repeat;
+    opacity: 0.9;
+    float:left;
+    margin-left: 195px;
+}
+.main h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    margin-top: 90px;
+    font-size: 60px;
+}
+.main p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+
+.main p a {
+    text-decoration: none;
+    color: red;
+}
+.main p a:hover{
+    color: blue;
+}
+.text{
+    padding: 20px;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+.text_1{
+    padding: 20px;
+    margin-top: 80px;
+    margin-left: 50px;
+}
+textarea {
+    resize: none;
+  }
+.comment{
+    float: right;
+    margin-top: -244px;
+    margin-right: 70px;
+    resize: none;
+}
+.button{
+    padding: 10px;
+    background-color: rgb(199, 9, 9);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 40px;
+    margin-left: 400px;
+    border: none;
+    box-shadow: 5px 5px 2px black;
+    transition: 0.5s;
+}
+.button:hover{
+    margin-left: 380px;
+    padding: 20px;
+}

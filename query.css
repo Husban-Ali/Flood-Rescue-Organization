@@ -1,0 +1,114 @@
+header {
+  padding: 40px;
+  text-align: center;
+  background: lightblue;
+  color: white;
+  font-size: 30px;
+}
+/*Header*/
+/*navbar*/
+nav {
+  background-color: #333;
+  text-align: center;
+  padding: 20px;
+}
+nav a {
+  padding: 10px;
+  margin: 0px 15px;
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+}
+
+nav a:hover {
+  background-color: #111;
+}
+/*Navbar*/
+
+/*footer*/
+footer {
+  padding: 30px;
+  background-color: rgb(16, 11, 10);
+}
+.col h3 {
+  color: greenyellow;
+}
+.col a {
+  text-decoration: none;
+  color: white;
+}
+.col a:hover {
+  color: blue;
+}
+
+.submit1 {
+  background-color: rgb(20, 85, 20);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  margin-top: 5px;
+  padding: 5px;
+  width: 150px;
+  text-transform: uppercase;
+}
+
+.submit1:hover {
+  background-color: greenyellow;
+  color: black;
+}
+/*Footer*/
+
+
+
+
+
+.main{
+margin-left: 200px;
+}
+
+
+.container1
+{
+width: 1000px;
+margin-left: 100px;
+
+}
+
+
+  .container{
+    margin: 50px;
+    width: max-content;
+    height: max-content;
+    }
+   .h1{
+    background-color: rgb(66, 177, 149);
+    color: white;
+    padding: 15px;
+    }
+    .main{
+    padding-left: 10px;
+    }
+    .submit{
+    margin-left: 310px;
+    margin-top: 60px;
+    background-color: rgb(66, 177, 149);
+    color: white;
+    border: none;
+    height: 40px;
+    width: 130px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    }
+    .Lname{
+    margin-left: 10px;
+    }
+    .img{
+    margin-bottom: 4px;
+    }
+    .last{
+    margin-left: 235px;
+    }
+
+
+
+
